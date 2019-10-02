@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 900px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+header nav{
+	display:inline-block;
+	margin-top: 35px;
+}
+
+header nav a{
+	margin: 0 20px;
+	text-decoration: none;
+	color: gray;
+}
+
+header .logo{
+	margin-left: 140px;
+}
+
+.iod{
+	display:inline-block;
+	margin-top: 30px;
+	position: relative;
+}
+
+.iod .code{
+	margin-left: 450px;
+	top:-70px;
+	position: relative;
+		top: 0px;
+}
+
+.iod-text{
+	text-align: center;
+	/* font-size: 52pt; */
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+}
+h1{
+	font-size: 52pt;
+}
+
+.iod .iod-text p#gslink{
+	border: 1px solid grey;
+    width: 109px;
+    padding: 3px;
+    color: lightslategrey;
+    margin-left: 84px;
+    margin-top: -5px;
+}
+.upper-content{
+	border-top: 1px solid gray;
+}
+
+.content{
+	display:inline-block;
+	position: relative;
+	margin: 13px;
+}
+.upper-content .ftext p{
+	width: 40%;
+}
+
+.upper-content .atext p{
+	width:40%;
+	position: absolute;
+	top:45px;
+	left: 450px;
+}
+
+.upper-content .atext h4{
+	position:absolute;
+	top:20px;
+	left: 450px;
+}
+
+.middle-img{
+	display:inline-block;
+	position: relative;
+
+}
+.upper-content div{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.lower-content{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.lower-content .text{
+	display:inline-block;
+	width:33%;
+
+}
+
+.contact{
+	display:inline-block;
+	width:95%;
+	border-top:1px solid grey;
+	margin: 10px;
+}
+
+.contact h4{
+	margin-top: 30px;
+}
+
+.contact p{
+	
+}
